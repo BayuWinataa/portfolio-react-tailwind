@@ -22,7 +22,7 @@ const HeroSection = () => {
 						Hi, I'm <span className="text-yellow-400">Bayu Winata</span>
 					</h1>
 					<p className="text-lg md:text-xl lg:text-2xl mb-8">
-						A passionate <span className="italic">Web Developer</span> with a knack for creating beautiful and functional websites.
+						A dedicated <span className="italic"> Front-End Web Developer</span> with a passion for crafting intuitive and engaging user experiences. 
 					</p>
 					<a href="#projects" className="inline-block bg-yellow-500 text-gray-800 py-3 px-6 rounded-lg text-lg font-semibold shadow-lg hover:bg-yellow-600 hover:shadow-xl transition-transform transform hover:scale-105 hover:translate-y-1">
 						See My Work

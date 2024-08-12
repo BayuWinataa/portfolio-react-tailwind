@@ -21,14 +21,14 @@ const About = () => {
 				<div className="max-w-[1000px] w-full px-4 grid sm:grid-cols-2 gap-8">
 					<div className="sm:text-right text-4xl font-bold" data-aos="fade-right" data-aos-duration="1000">
 						<p>
-							Hi, I am <span className="text-[#C23B22]">Rameez</span>, Nice to meet you, Please take a look of my Projects, <span className="text-[#C23B22]">Thank You</span>.
+							Hi, I am <span className="text-[#C23B22]">Bayu</span>, Nice to meet you, Please take a look of my Projects, <span className="text-[#C23B22]">Thank You</span>.
 						</p>
 					</div>
 					<div data-aos="fade-up" data-aos-duration="1000">
 						<p>
-							Unlock the full potential of your web presence with a seasoned Frontend Developer deeply passionate about crafting captivating digital experiences. With expertise in HTML, CSS, JavaScript, and TypeScript, coupled with a flair
-							for creating visually stunning interfaces, I am committed to delivering cutting-edge websites that leave a lasting impact. Together, let's transform your visions into reality and elevate your online journey to new heights of
-							success.
+							Unlock the full potential of your web presence with a seasoned Frontend Developer deeply passionate about crafting captivating digital experiences. With expertise in HTML, CSS, JavaScript, Tailwind, PHP, Bootstrap, and
+							ReactJS, coupled with a flair for creating visually stunning interfaces, I am committed to delivering cutting-edge websites that leave a lasting impact. Together, let's transform your visions into reality and elevate your
+							online journey to new heights of success.
 						</p>
 					</div>
 				</div>

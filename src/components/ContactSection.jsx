@@ -66,19 +66,13 @@ const Contact = () => {
 							<FaInstagram />
 						</a>
 
-						<a href="https://www.github.com/bayuwinata" target="_blank" rel="noopener noreferrer" className="text-white text-3xl bg-black p-2 rounded-full hover:bg-gray-800 transition-transform transform hover:scale-110">
+						<a href="https://www.github.com/BayuWinataa" target="_blank" rel="noopener noreferrer" className="text-white text-3xl bg-black p-2 rounded-full hover:bg-gray-800 transition-transform transform hover:scale-110">
 							<FaGithub />
 						</a>
 
-						<a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-blue-500 text-3xl hover:text-blue-600 transition-transform transform hover:scale-110">
+						<a href="https://www.linkedin.com/in/bayuwinata" target="_blank" rel="noopener noreferrer" className="text-blue-500 text-3xl hover:text-blue-600 transition-transform transform hover:scale-110">
 							<FaLinkedin />
 						</a>
-					</div>
-				</div>
-
-				<div className="mt-8">
-					<div>
-						<span>Made with ❤️ by Bayu Winata</span>
 					</div>
 				</div>
 			</div>

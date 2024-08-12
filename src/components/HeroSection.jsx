@@ -3,7 +3,7 @@ import profileImg from '../assets/profile.png';
 
 const HeroSection = () => {
 	return (
-		<section className="relative flex items-center justify-center h-screen bg-gradient-to-r from-blue-600 to-blue-900 text-white text-center overflow-hidden mt-16">
+		<section id='hero' className="relative flex items-center justify-center h-screen bg-gradient-to-r from-blue-600 to-blue-900 text-white text-center overflow-hidden mt-16">
 			{/* Background Image */}
 			<img
 				src="https://images.unsplash.com/photo-1506748686214e9df14f2d3e2e0c8c52a23b57249a35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJhY2tncm91bmR8ZW58MHx8fDE2NjAwMDM1MzI&ixlib=rb-1.2.1&q=80&w=1080"

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -31,24 +32,24 @@ const Header = () => {
 				>
 					<ul className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 px-4 py-6 md:px-0 md:py-0">
 						<li>
-							<Link to="/" className="text-lg hover:text-yellow-400 transition-colors">
+							<ScrollLink to="hero" smooth={true} duration={500} className="text-lg hover:text-yellow-400 transition-colors cursor-pointer" onClick={toggleMenu}>
 								Home
-							</Link>
+							</ScrollLink>
 						</li>
 						<li>
-							<a href="#about" className="text-lg hover:text-yellow-400 transition-colors">
+							<ScrollLink to="about" smooth={true} duration={500} className="text-lg hover:text-yellow-400 transition-colors cursor-pointer" onClick={toggleMenu}>
 								About
-							</a>
+							</ScrollLink>
 						</li>
 						<li>
-							<a href="#projects" className="text-lg hover:text-yellow-400 transition-colors">
+							<ScrollLink to="projects" smooth={true} duration={500} className="text-lg hover:text-yellow-400 transition-colors cursor-pointer" onClick={toggleMenu}>
 								Projects
-							</a>
+							</ScrollLink>
 						</li>
 						<li>
-							<a href="#contact" className="text-lg hover:text-yellow-400 transition-colors">
+							<ScrollLink to="contact" smooth={true} duration={500} className="text-lg hover:text-yellow-400 transition-colors cursor-pointer" onClick={toggleMenu}>
 								Contact
-							</a>
+							</ScrollLink>
 						</li>
 					</ul>
 				</nav>
